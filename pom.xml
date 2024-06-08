@@ -59,6 +59,7 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <argLine>-Dkarate.options="--tags @Test"</argLine>
                 </configuration>
             </plugin>
         </plugins>
